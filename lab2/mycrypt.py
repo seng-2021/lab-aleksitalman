@@ -31,5 +31,5 @@ def encode(s):
     return crypted[:origlen]
 
 def decode(s):
-    return encode(s)
+    return encode(s).lower()
 
